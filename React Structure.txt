@@ -1,0 +1,74 @@
+var
+let const
+const : value will not change
+let: value will change
+jsbin.com
+
+var myName ='Max';
+console.log(myName);
+
+myName = 'Rizwan';
+console.log(myName);
+
+
+let  myName ='Max';
+console.log(myName);
+
+myName = 'Rizwan';
+console.log(myName);
+
+both output is same
+
+const  myName ='Max';
+console.log(myName);
+
+myName = 'Rizwan';
+console.log(myName);
+
+output
+"Max"
+"error"
+"TypeError: Assignment to constant variable.
+    at null.js:4:8
+    at https://static.jsbin.com/js/prod/runner-4.1.7.min.js:1:13924
+    at https://static.jsbin.com/js/prod/runner-4.1.7.min.js:1:10866"
+
+
+    function printMyName(name)
+{
+    console.log(name);
+}
+printMyName('Max');
+/////
+const printMyName = (name) =>
+{
+    console.log(name);
+}
+printMyName('Max');
+//
+if function has more than one argument we need put() inside if we have only one arguement no need to put
+const printMyName = name =>
+{
+
+}
+const printMyName =(name,age) =>
+{
+    console.log(name,age);
+}
+printMyName('Max',28);
+Max"
+28
+
+const Multiply = number =>
+{
+    return number * 3;
+
+}
+console.log(Multiply(4));
+
+we omit curly braces and return keyword if we have single return output statement
+
+const Multiply = number => number * 3;
+
+
+console.log(Multiply(4));
