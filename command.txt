@@ -1,0 +1,88 @@
+git clone https://github.com/mdhabeebrizwan/React.git
+
+git status
+git add filename
+git commit -m 'commit status'
+git log
+git push
+
+
+
+git init 
+to create your local repository
+
+git remote add origin "https://github.com/mdhabeebrizwan/React.git"\
+connection to remote remote depository
+
+
+git pull origin master
+taking (pulling ) data from remote depository
+
+git push
+
+
+
+git status
+tells you which files are added to index and are ready to commit
+
+git add
+Lets you add files to your index
+
+git commit
+It REFER TO RECORDING SNAPSHOTS OF THE REPOSITORY AT A GIVEN TIME.
+
+
+$ git status
+
+which files are to be index
+
+$ git add command.txt
+
+it will add the file into index
+
+$ git commit -m "command of git by hr"
+
+index should be commit addnin to local reos
+
+
+
+
+How to add Multiple Files
+git add - A
+git status
+git commit -a "message"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git config --global user.name Rizwan
+
+git config --global user.email mdhabeebmcadba@gmail.com
+git init
+git add index.html
+git commit -m "first commit"
+git status
+
+
+touch about.html
+touch contact.html
+touch partners.html
+
+git add -A
+ to add all files in a stagis area
+
